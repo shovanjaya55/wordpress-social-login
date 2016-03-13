@@ -84,7 +84,7 @@ function wsl_component_buddypress_setup_profile_mapping()
 
 	# http://hybridauth.sourceforge.net/userguide/Profile_Data_User_Profile.html
 	$ha_profile_fields = array(
-		array( 'field' => 'provider'    , 'label' => _wsl__( "Provider name"            , 'wordpress-social-login'), 'description' => _wsl__( "The the provider or social network name the user used to connected"                                                     , 'wordpress-social-login') ),
+		array( 'field' => 'provider'    , 'label' => _wsl__( "Provider name"            , 'wordpress-social-login'), 'description' => _wsl__( "The provider or social network name the user used to connected"                                                     , 'wordpress-social-login') ),
 		array( 'field' => 'identifier'  , 'label' => _wsl__( "Provider user Identifier" , 'wordpress-social-login'), 'description' => _wsl__( "The Unique user's ID on the connected provider. Depending on the provider, this field can be an number, Email, URL, etc", 'wordpress-social-login') ),
 		array( 'field' => 'profileURL'  , 'label' => _wsl__( "Profile URL"              , 'wordpress-social-login'), 'description' => _wsl__( "Link to the user profile on the provider web site"                                                                      , 'wordpress-social-login') ),
 		array( 'field' => 'webSiteURL'  , 'label' => _wsl__( "Website URL"              , 'wordpress-social-login'), 'description' => _wsl__( "User website, blog or web page"                                                                                         , 'wordpress-social-login') ),
